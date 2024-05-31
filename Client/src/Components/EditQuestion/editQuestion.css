@@ -1,0 +1,327 @@
+@media (1200px <= width) {
+
+
+.edit-question {
+    position: relative;
+    margin-top: 80px;
+  }
+  
+  .edit-question__text-title {
+    margin-bottom: 15px;
+  }
+  
+  .edit-question__text {
+    width: 100%;
+    height: 90px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 20px;
+    padding-left: 30px;
+    line-height: 40px;
+  }
+  
+  .edit-question__options-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .edit-question__option-container {
+    display: flex;
+    align-items: center;
+    flex-basis: 48%;
+    margin-top: 30px;
+    position: relative;
+  }
+  
+  .edit-question__option-char {
+    position: absolute;
+    left: 30px;
+  }
+  
+  .edit-question__option {
+    width: 100%;
+    height: 90px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding-left: 70px;
+    padding-right: 100px;
+  }
+  
+  .edit-question__option-checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 30px;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    transition: 0.5s;
+  }
+  
+  .checkbox--correctly {
+    background-color: #26D782;
+  }
+  
+  .checkbox--incorrectly {
+    background-color: #EE5454;
+  }
+  
+  .edit-question__check-icon {
+    color: white;
+  }
+  
+  .edit-question__button-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 25px;
+  }
+  
+  .edit-question__button {
+    width: 180px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-left: 30px;
+  }
+  
+  .button--delete {
+    background-color: #EE5454;
+  }
+  
+  .button--save {
+    background-color: #A729F5;
+  }
+  
+  .button--disabled {
+    background-color: #cc7eff;
+    cursor: not-allowed;
+  }
+}
+
+@media (500px <= width < 1200px) {
+
+  .edit-question {
+      position: relative;
+      margin-top: 80px;
+    }
+    
+    .edit-question__text-title {
+      margin-bottom: 15px;
+    }
+    
+    .edit-question__text {
+      width: 100%;
+      height: 80px;
+      border: none;
+      outline: none;
+      border-radius: 10px;
+      padding: 20px;
+      padding-left: 30px;
+      line-height: 40px;
+    }
+    
+    .edit-question__options-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .edit-question__option-container {
+      display: flex;
+      align-items: center;
+      flex-basis: 48%;
+      margin-top: 30px;
+      position: relative;
+    }
+    
+    .edit-question__option-char {
+      position: absolute;
+      left: 30px;
+    }
+    
+    .edit-question__option {
+      width: 100%;
+      height: 70px;
+      outline: none;
+      border: none;
+      border-radius: 10px;
+      padding-left: 70px;
+      padding-right: 100px;
+    }
+    
+    .edit-question__option-checkbox {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      right: 30px;
+      width: 30px;
+      height: 30px;
+      border-radius: 5px;
+      cursor: pointer;
+      border: none;
+      transition: 0.5s;
+    }
+    
+    .checkbox--correctly {
+      background-color: #26D782;
+    }
+    
+    .checkbox--incorrectly {
+      background-color: #EE5454;
+    }
+    
+    .edit-question__check-icon {
+      color: white;
+    }
+    
+    .edit-question__button-container {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 25px;
+    }
+    
+    .edit-question__button {
+      width: 180px;
+      height: 50px;
+      border-radius: 10px;
+      border: none;
+      color: white;
+      cursor: pointer;
+      margin-left: 30px;
+    }
+    
+    .button--delete {
+      background-color: #EE5454;
+    }
+    
+    .button--save {
+      background-color: #A729F5;
+    }
+    
+    .button--disabled {
+      background-color: #cc7eff;
+      cursor: not-allowed;
+    }
+  }
+  
+
+  @media (width <= 500px) {
+
+    .edit-question {
+        position: relative;
+        margin-bottom: 40px;
+      }
+      
+      .edit-question__text-title {
+        margin-bottom: 15px;
+      }
+      
+      .edit-question__text {
+        width: 100%;
+        height: 50px;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+        padding: 20px;
+        padding-left: 30px;
+        line-height: 40px;
+      }
+      
+      .edit-question__options-container {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .edit-question__option-container {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-top: 12px;
+        position: relative;
+      }
+      
+      .edit-question__option-char {
+        position: absolute;
+        left: 15px;
+      }
+      
+      .edit-question__option {
+        width: 100%;
+        height: 50px;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        padding-left: 50px;
+        padding-right: 70px;
+      }
+      
+      .edit-question__option-checkbox {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        right: 24px;
+        width: 24px;
+        height: 24px;
+        border-radius: 5px;
+        cursor: pointer;
+        border: none;
+        transition: 0.5s;
+      }
+      
+      .checkbox--correctly {
+        background-color: #26D782;
+      }
+      
+      .checkbox--incorrectly {
+        background-color: #EE5454;
+      }
+      
+      .edit-question__check-icon {
+        color: white;
+      }
+      
+      .edit-question__button-container {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 25px;
+      }
+      
+      .edit-question__button {
+        width: 120px;
+        height: 40px;
+        border-radius: 10px;
+        border: none;
+        color: white;
+        cursor: pointer;
+        margin-left: 30px;
+      }
+      
+      .button--delete {
+        background-color: #EE5454;
+      }
+      
+      .button--save {
+        background-color: #A729F5;
+      }
+      
+      .button--disabled {
+        background-color: #cc7eff;
+        cursor: not-allowed;
+      }
+    }
+    

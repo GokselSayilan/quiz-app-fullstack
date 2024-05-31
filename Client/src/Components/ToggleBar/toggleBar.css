@@ -1,0 +1,85 @@
+@media (500px <= width) {
+
+
+    .toggle-bar {
+        width: 130px;
+        height: 28px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .toggle-bar__switch {
+        width: 48px;
+        height: 28px;
+        background-color: #A729F5;
+        border-radius: 14px;
+        padding: 4px 0;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .toggle-bar__key {
+        width: 20px;
+        height: 20px;
+        background-color: #fff;
+        border-radius: 50%;
+    }
+
+    .toggle-bar__key--left {
+        position: relative;
+        left: 4px;
+    }
+
+    .toggle-bar__key--right {
+        position: absolute;
+        right: 4px;
+    }
+
+    .toggle-bar__img {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+@media (width < 500px) {
+    .toggle-bar {
+        width: 80px;
+        height: 28px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .toggle-bar__switch {
+        width: 32px;
+        height: 20px;
+        background-color: #A729F5;
+        border-radius: 14px;
+        padding: 4px 0;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .toggle-bar__key {
+        width: 12px;
+        height: 12px;
+        background-color: #fff;
+        border-radius: 50%;
+    }
+
+    .toggle-bar__key--left {
+        position: relative;
+        left: 4px;
+    }
+
+    .toggle-bar__key--right {
+        position: absolute;
+        right: 4px;
+    }
+
+    .toggle-bar__img {
+        width: 16px;
+        height: 16px;
+    }
+}

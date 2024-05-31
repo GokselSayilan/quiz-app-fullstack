@@ -1,0 +1,21 @@
+# node_modules klasörlerini hariç tut
+Client/node_modules/
+Server/node_modules/
+
+# Vercel ve diğer yapılandırma dosyalarını hariç tut
+.vercel/
+
+# IDE veya editör dosyalarını hariç tut
+.vscode/
+.idea/
+
+# Diğer genel dosya ve klasörler
+.DS_Store
+Thumbs.db
+
+# Log dosyaları
+*.log
+
+# Çeşitli geçici dosyalar
+tmp/
+temp/

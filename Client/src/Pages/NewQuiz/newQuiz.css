@@ -1,0 +1,211 @@
+@media (1200px <=width) {
+
+
+    .new-quiz {
+        position: relative;
+        top: -100px;
+    }
+
+    .new-quiz__title-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .new-quiz__title-input {
+        width: 275px;
+        height: 50px;
+        margin: 0 20px;
+        padding-left: 25px;
+        padding-right: 50px;
+        border-radius: 15px;
+        border: none;
+        outline: none;
+    }
+
+    .new-quiz__title-icon {
+        position: relative;
+        left: -60px;
+        cursor: pointer;
+        user-select: none;
+    }
+
+    .new-quiz__add-button {
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+        gap: 10px;
+        width: 250px;
+        height: 70px;
+        border: none;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+
+    .new-quiz__home-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        bottom: 80px;
+        right: 140px;
+        width: 300px;
+        height: 60px;
+        border: none;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+
+
+    .item--none {
+        color: transparent;
+    }
+}
+
+@media (500px <=width < 1200px) {
+
+    .new-quiz {
+        position: relative;
+    }
+
+    .new-quiz__title-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .new-quiz__title-input {
+        width: 275px;
+        height: 50px;
+        margin: 0 20px;
+        padding-left: 25px;
+        padding-right: 50px;
+        border-radius: 15px;
+        border: none;
+        outline: none;
+    }
+
+    .new-quiz__title-icon {
+        position: relative;
+        left: -60px;
+        cursor: pointer;
+        user-select: none;
+    }
+
+    .new-quiz__add-button {
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+        gap: 10px;
+        width: 250px;
+        height: 70px;
+        border: none;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+
+    .new-quiz__home-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        bottom: 80px;
+        right: 60px;
+        width: 300px;
+        height: 60px;
+        border: none;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+
+
+    .item--none {
+        color: transparent;
+    }
+}
+
+
+@media (width <=500px) {
+
+    .new-quiz {
+        position: relative;
+    }
+
+    .new-quiz__title-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+        position: relative;
+    }
+
+    .new-quiz__title-input {
+        width: 275px;
+        height: 40px;
+        margin: 0 20px;
+        padding-left: 25px;
+        padding-right: 50px;
+        border-radius: 15px;
+        border: none;
+        outline: none;
+    }
+
+    .new-quiz__title-icon {
+        position: absolute;
+        right: 40px;
+        top: 50px;
+        cursor: pointer;
+        user-select: none;
+    }
+
+    .new-quiz__add-button {
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+        gap: 10px;
+        width: 200px;
+        height: 45px;
+        border: none;
+        border-radius: 15px;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+
+    .new-quiz__home-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        width: calc(100vw - 48px);
+        height: 50px;
+        bottom: 40px;
+        border: none;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+
+    .new-quiz__mobile-home-button {
+        position: fixed;
+        left: 24px;
+        top: 40px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        height: 35px;
+        padding: 10px;
+        width: 100px;
+        border: none;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+
+
+    .item--none {
+        color: transparent;
+    }
+}
